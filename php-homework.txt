@@ -1,4 +1,18 @@
-<?php
+/*
+1. O primeiro passo é determinar o nome da classe, os nomes das propriedades para o nome e o sobrenome e o nome do método que retorna “olá”.
+
+Nome da classe: User;
+
+Propriedades da classe: name, login, password;
+
+Método da classe: 
+public function hi() {
+echo("hellow world "");
+}
+
+	
+*/
+
 
 
 class User {
@@ -59,4 +73,4 @@ echo("\n");
 $usuarioJair = new User('Jair', '');
 $usuarioJair->hi()->register()->email();
 
-?>
+
